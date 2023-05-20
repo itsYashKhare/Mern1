@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images6.alphacoders.com/104/1049840.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    padding-top: 100px;
+    /* color: rgb(66, 62, 63); */
+    color: transparent;
+    font-size: 200px;
+    font-family: 'Creepster', cursive;
+    -webkit-text-stroke: 4px rgb(255, 255, 255);
+
+}
+
+h2{
+    color: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    padding: 30px;
+    -webkit-text-stroke: 7px rgb(215, 176, 0);
+    margin: 50px;
+
+}
+
+button{
+    background-color: transparent;
+    border-color:white;
+    border-radius: 30px;
+    padding: 30px 30px;
+    margin: 10px;
+    color: red ;
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    
+}
